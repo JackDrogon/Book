@@ -1,7 +1,7 @@
 (define (print-rat x)
-  (newline)
   (display (car x))
   (display "/")
-  (display (cdr x)))
+  (display (cdr x))
+  (newline))
 
 (print-rat (cons 1 2))
